@@ -38,19 +38,19 @@ create table vetapp.owners
 
     insert into vetapp.pets
         (name,owner_id,description,picture)
-    values("simon", 1, 2, "es un perro muy amable", "/img/simon.jpg");
+    values("simon", 1, "es un perro muy amable", "/img/simon.jpg");
     insert into vetapp.pets
         (name,owner_id,description,picture)
-    values("hugo", 1, 1,"este perro se porta mal", "/img/hugo.jpg");
+    values("hugo", 1,"este perro se porta mal", "/img/hugo.jpg");
     insert into vetapp.pets
         (name,owner_id,description,picture)
-    values("felipe", 1,3, "este perro ladra fuerte ", "/img/felipe.jpg");
+    values("felipe", 1, "este perro ladra fuerte ", "/img/felipe.jpg");
     insert into vetapp.pets
         (name,owner_id,description,picture)
-    values("maggi", 1, 4,"este perro come rapido", "/img/maggi.jpg");
+    values("maggi", 1,"este perro come rapido", "/img/maggi.jpg");
     insert into vetapp.pets
         (name,owner_id,description,picture)
-    values("rocco", 2, 1,"este perro es muy territorial, cuando se siente amenzado no le importa nada...", "/img/rocco.jpg");
+    values("rocco", 2,"este perro es muy territorial, cuando se siente amenzado no le importa nada...", "/img/rocco.jpg");
 
 
 
